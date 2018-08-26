@@ -26,7 +26,8 @@
             android:label="@string/title_activity_sign_in" />
         <activity
             android:name=".SignUp"
-            android:label="@string/title_activity_sign_up"></activity>
+            android:label="@string/title_activity_sign_up" />
+        <activity android:name=".SignUpForm"></activity>
     </application>
 
 </manifest>

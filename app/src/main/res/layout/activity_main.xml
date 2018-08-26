@@ -15,7 +15,7 @@
         android:layout_marginRight="87dp"
         android:layout_marginStart="77dp"
         android:layout_marginTop="42dp"
-        android:onClick="signIn"
+        android:onClick="signUpForm"
         android:text="Sign Up"
         app:layout_constraintEnd_toStartOf="@+id/button2"
         app:layout_constraintStart_toStartOf="parent"
