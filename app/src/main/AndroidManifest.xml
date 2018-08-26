@@ -25,9 +25,12 @@
             android:name=".SignIn"
             android:label="@string/title_activity_sign_in" />
         <activity
-            android:name=".SignUp"
-            android:label="@string/title_activity_sign_up" />
-        <activity android:name=".SignUpForm"></activity>
+            android:name=".SignUpForm"
+            android:label="Sign Up" />
+        <activity
+            android:name=".HomePage"
+            android:label="@string/title_activity_home_page"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>

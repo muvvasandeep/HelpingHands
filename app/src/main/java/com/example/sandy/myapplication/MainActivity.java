@@ -19,10 +19,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this,SignIn.class);
         startActivity(intent);
     }
-    public void signUp(View view){
-        Intent intent = new Intent(this,SignUp.class);
-        startActivity(intent);
-    }
     public void signUpForm(View view){
         Intent intent = new Intent(this,SignUpForm.class);
         startActivity(intent);

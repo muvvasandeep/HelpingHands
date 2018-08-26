@@ -14,11 +14,10 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="76dp"
         android:ems="10"
+        android:hint="@string/prompt_email"
         android:inputType="textEmailAddress"
-        android:text="Email"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        tools:text="@string/prompt_email" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/phonenumber"
@@ -28,11 +27,10 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="18dp"
         android:ems="10"
+        android:hint="Phone Number"
         android:inputType="phone"
-        android:text="PhoneNumber"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/email"
-        tools:text="PhoneNumber" />
+        app:layout_constraintTop_toBottomOf="@+id/email" />
 
     <EditText
         android:id="@+id/editText4"
@@ -42,11 +40,10 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:inputType="textPassword|textVisiblePassword"
-        android:text="Password"
+        android:hint="Password"
+        android:inputType="textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/phonenumber"
-        tools:text="Password" />
+        app:layout_constraintTop_toBottomOf="@+id/phonenumber" />
 
     <EditText
         android:id="@+id/password"
@@ -56,27 +53,10 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="18dp"
         android:ems="10"
-        android:inputType="text|textPassword|textVisiblePassword"
-        android:text="Confirm Password"
+        android:hint="Confirm Password"
+        android:inputType="text|textPassword"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText4"
-        tools:text="Confirm Password" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="150dp"
-        android:layout_height="27dp"
-        android:layout_marginLeft="109dp"
-        android:layout_marginStart="109dp"
-        android:layout_marginTop="23dp"
-        android:text="Sign Up Form"
-        android:textAllCaps="false"
-        android:textColor="@color/colorAccent"
-        android:textSize="18sp"
-        android:textStyle="bold"
-        android:typeface="serif"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/editText4" />
 
     <EditText
         android:id="@+id/username"
@@ -86,8 +66,8 @@
         android:layout_marginStart="98dp"
         android:layout_marginTop="18dp"
         android:ems="10"
+        android:hint="User Name"
         android:inputType="textPersonName"
-        android:text="User Name"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/password" />
 
@@ -103,12 +83,13 @@
         app:layout_constraintTop_toBottomOf="@+id/username" />
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/email_sign_in_button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="161dp"
         android:layout_marginStart="161dp"
         android:layout_marginTop="18dp"
+        android:onClick="homePage"
         android:text="Register"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/checkBox" />
